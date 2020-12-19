@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px !important;
+  padding: 0 2rem;
+  z-index: 1000;
+  background-color: #ffa726 !important;
+}
+
+.nav-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
