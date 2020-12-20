@@ -40,6 +40,7 @@
 </template>
 
 <script>
+import { eventEmitter } from "../../main";
 export default {
   name: "todo",
   data() {
@@ -66,7 +67,9 @@ export default {
       };
 
       console.log(formData);
-      this.resetForm();
+
+      eventEmitter.$emit("itemsUpdate", formData);
+      // this.resetForm();
     },
 
     resetForm() {

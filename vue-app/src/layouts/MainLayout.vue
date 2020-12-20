@@ -16,7 +16,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
 
 export default {
-  name: "mail-layout",
+  name: "main-layout",
   data: () => ({
     isOpen: true,
   }),

@@ -7,6 +7,9 @@ import "./scss/styles.scss";
 
 Vue.config.productionTip = false;
 
+// Шина
+export const eventEmitter = new Vue();
+
 new Vue({
   router,
   store,
